@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="sty.css">
+        <script src="https://kit.fontawesome.com/88da75ed1e.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="lgo.png" alt="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text" >
+                    <p>UI/UX Designer</p>
+                    <h1>Hi, I'm <span>Valan Antony </span><br>Technocrat</h1>
+                </div>
+            </div>
+        </div>
+        <!-----------------------------------------------about--------------------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                <div class="about-col-1">
+                    <img src="bog.gif">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p>Hello everyone reading this, Hi I'm Valan a quick  learner,
+                       have a peice of mind to put efforts in my daily tasks.
+                       I'm a software Dev, UI/UX Designer, and FrontEnd Dev. And 
+                       have a huge interest in designing, currently I'm pursuing BE-CSE Final year at SKCET Coimbatore, India 
+                    </p><br>
+                    
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('certifications')">Certifications</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span></li>
+                            <li><span>C++</span></li>
+                            <li><span>UI UX Design</span></li>
+                            <li><span>MySQL</span></li>
+                            <li><span>Html/Css</span></li>
+                            <li><span>Problem Solving</span></li>
+                            <li><span>Mern Stack</span></li>
+                            <li><span>Figma</span></li>
+                            <li><span>Team Player</span></li>
+                            <li><span>Django</span></li>
+                            <li><span>Photography</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certifications">
+                        <ul>
+                            <li><span>Internet of Things Workshop-2021</span></li>
+                            <br>
+                            <li><span>Blockchain Basics-2021</span></li>
+                            <br>
+                            <li><span>Programming Foundations with Javascript, Html & Css-2021</span></li>
+                            <br>
+                            <li><span>Google UI/UX Design professional course-2023</span></li>
+                            <br>
+                            <li><span>Start the UX Design Process: Empathize, Define, and Ideate 2023</span></li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BE : 2020-Current</span><br>Sri Krishna College of Engineering and Technology<br>CGPA : 8.34</li>
+                            <br>
+                            <li><span>HSC</span><br>Carmel Garden Matriculation Higher Sec School<br>Percentage : 73</li>
+                            <br>
+                            <li><span>SSLC</span><br>Carmel Garden Matriculation Higher Sec School<br>Percentage : 93</li>
+                        </ul>
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!------------------------------------------services------------------------------------>
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                        <div>
+                        
+                            <i class="fa-brands fa-weebly"></i><h2>Web Design</h2><br>
+                            <p>Planning, conceptualizing, and implementing the plan
+                               for designing a website in a way that is functional and offers a good
+                               user experience. User experience is central to the web designing process.</p><br>
+
+                               
+                               <i class="fa-solid fa-pen-nib"></i> <h2>UI UX Designn</h2><br>
+
+                    
+                                 <p>UI/UX services that include branding,
+                                    responsive web design, mobile app design,
+                                    user experience consulting, and promotional
+                                    designs using the latest tools and technologies.
+                                </p><br>
+     
+
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <!------------------------------------portfolio---------------------------------->
+        <div id="portfolio">
+            <div class="container1">
+               <h1 class="sub-title">My Work</h1>
+               <div class="work-list">
+                <div class="work">
+                 <img src="w1.jpg"><br>
+                 <div class="layer">
+                    <h3>Y Shoppee</h3>
+                    <p>
+                        Responsive ecommerce website developed using 
+                        React js, Node js, Mongo DB, Mongoose.
+
+                    </p>
+                 </div>
+                 </div>
+                 <div class="work">
+                    <img src="w2.jpg"><br>
+                    <div class="layer">
+                        <h3>Logan coop</h3>
+                        <p>
+                            A fully functional ecommerce site with digital
+                            transactions using PayPal SANDBOX , a virtual payment testing
+                            environment. Functionalities and features of website Tools include Django 4.0,
+                            Bootstrap 5 and Jinja Templating
+    
+                        </p>
+                     </div>
+                    </div>
+                 </div>
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+        <!------------------------------------------contact--------------------------------------->
+        <div class="contact">
+            <div class="container2">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">
+                            Contact Me
+                        </h1>
+                        <p>
+                            <i class="fa-solid fa-share-from-square"></i>valanantony27@gmail.com
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-phone"></i>7708076390
+                        </p>
+                        <div class="socialicons">
+                            <a href="https://github.com/valan27"><i class="fa-brands fa-github fa-fade"></i></a>
+                            <a href="https://www.linkedin.com/in/valan-antony-a-272170203/"><i class="fa-brands fa-linkedin fa-fade"></i></a>
+                            <a href="https://leetcode.com/valanajvayal/"><i class="fa-sharp fa-solid fa-code fa-fade"></i></a>
+                        </div>
+                       <a href="CV.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn3">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>
+                    Copyright © Valan Made with <i class="fa-regular fa-heart"></i>
+                </p>
+            </div>
+        </div>
+
+       <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+       </script>
+       <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+       </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyO-idP7DOkyZt7B7FPgblng7RB1TWxtRo_CBhlvF2aCdSz-ldEHM-ix4MAxBk-3Gjl/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+    </body>
+</html>
